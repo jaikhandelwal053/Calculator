@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+
+<body>
+    <div class="contaner">
+        <div class="cantent">
+          <h1>Online Calculator</h1>
+          <h2>By:- Jai Khandelwal</h2>
+        </div>
+        <div class="calculator">
+            <form Name="calc">
+                <table id="calc">
+                    <tbody>
+                        <tr>
+                            <td colspan=4><input id="display" name="result" type="text" disabled></td>
+                        </tr>
+                        <tr>
+                            <td><input class="btn cl" type=button value="AC"></td>
+                            <td><input class="btn cl" type=button value="C"></td>
+                            <td><input class="btn op" type=button value="/"></td>
+                            <td><input class="btn op" type=button value="*"></td>
+                        </tr>
+                        <tr>
+                            <td><input class="btn" type=button value="7"></td>
+                            <td><input class="btn" type=button value="8"></td>
+                            <td><input class="btn" type=button value="9"></td>
+                            <td><input class="btn op" type=button value="-"></td>
+                        </tr>
+                        <tr>
+                            <td><input class="btn" type=button value="4"></td>
+                            <td><input class="btn" type=button value="5"></td>
+                            <td><input class="btn" type=button value="6"></td>
+                            <td rowspan="2"><input class="op" id="add_btn" type=button value="+"></td>
+                        </tr>
+
+                        <tr>
+                            <td><input class="btn" type=button value="1"></td>
+                            <td><input class="btn" type=button value="2"></td>
+                            <td><input class="btn" type=button value="3"></td>
+                        </tr>
+                        <tr>
+                            <td><input class="btn" type=button value="."></td>
+                            <td><input class="btn" type=button value="0"></td>
+                            <td colspan="2"><input class="cl" id="eql_btn" type=button value="="></td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </form>
+
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+
+</html>
